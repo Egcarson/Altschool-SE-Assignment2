@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup | Individuals</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <img src="./assets/images/logo.png" alt="this is the logo of the company" class="logo">
+            <p class="content-head">For Individuals</p>
+            <p class="content-body">Start benefiting from the wellness experience. For companies looking on increasing productivity, and improving organization wellness.</p>
+        </div>
+
+        <div class="form-container">
+            <form action="">
+                <div class="input left-input block">
+                    <!-- getting the users name -->
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="fname" value="Tolu" class="focus">
+                </div>
+
+                <div class="input block">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lname">
+                </div>
+                    
+                    <!-- user's gender -->
+                    <div class="input left-input block">
+                        <label for="gender">Gender</label>
+                        <input type="text" id="gender" name="gender" placeholder="Select here">
+                        <img src="./assets/images/dropdown.png" alt="dropdown" class="gender-icon">
+                    </div>
+
+                    <!-- user's date of birth -->
+                    <div class="input block">
+                        <label for="dob">Date of Birth</label>
+                        <input type="text" name="dob" id="dob" placeholder="Select here...">
+                        <img src="./assets/images/date.png" alt="date icon" class="dob-icon">
+                    </div>
+
+                    <!-- user's weight and height -->
+                    <div class="input left-input block">
+                        <label for="weight">Weight (KG)</label>
+                        <input type="text" id="weight" name="weight" placeholder="Enter Weight">
+                    </div>
+                    <div class="input block">
+                        <label for="height">Height (CM)</label>
+                        <input type="text" id="height" name="height" placeholder="Enter Height">
+                    </div>
+                
+                    <!-- user's activity level -->
+                    <div class="full-input">
+                        <label for="actlevel">Activity Level</label>
+                        <!-- <select name="actlevel" id="actlevel">
+                            <option value="activity level" aria-placeholder="Select here"></option>
+                        </select> -->
+                        <input type="text" name="actlevel" id="actlevel" placeholder="Select here">
+                        <img src="./assets/images/dropdown.png" alt="dropdown icon" class="activity-icon">
+                    </div>
+
+                    <!-- user's password -->
+                    <div class="full-input">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password">
+                        <img src="./assets/images/show.png" alt="eye icon" class="pass-icon">
+                    </div>
+
+                    <!-- registeratio button -->
+                    <button>Register</button>
+                    <p class="bottom-text">By clicking Register, you agree to our <a href="#">Terms of Use</a> and our <a href="#">Privacy Policy</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
